@@ -78,14 +78,11 @@ O sistema utiliza uma arquitetura de IoT padrão, onde os sensores e simuladores
     *   Altere as constantes no início do arquivo com as suas credenciais de Wi-Fi e informações do broker MQTT, se necessário.
 
     ````cpp
-    // filepath: c:\Users\mateus.macedo_gentro\Desktop\Sprint4-ioT\codigo fonte\codigo_fonte_sprint4.cpp
-    // ...existing code...
     const char* default_SSID = "SUA_REDE_WIFI";
     const char* default_PASSWORD = "SUA_SENHA_WIFI";
     const char* default_BROKER_MQTT = "IP_DO_SEU_BROKER";
     const int default_BROKER_PORT = 1883;
     const char* default_TOPICO_SUBSCRIBE = "/ESP/jogador001/cmd";
-    // ...existing code...
     ````
 
 3.  **Upload e Monitoramento**:
