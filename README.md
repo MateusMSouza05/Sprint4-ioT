@@ -91,3 +91,9 @@ O sistema utiliza uma arquitetura de IoT padrão, onde os sensores e simuladores
     *   Clique em "Upload" para gravar o código no ESP32.
     *   Abra o "Serial Monitor" com a velocidade de `115200` para acompanhar o status da conexão e os dados que estão sendo publicados no broker MQTT.
     *   Utilize um cliente MQTT (como o MQTT Explorer) para se inscrever nos tópicos e visualizar os dados sendo recebidos em tempo real.
+
+    ## Simulação
+
+Você pode testar o projeto em um ambiente de simulação online utilizando o Wokwi:
+
+[**Clique aqui para acessar a simulação no Wokwi**](https://wokwi.com/projects/446837415744158721)
